@@ -1,5 +1,5 @@
-    <!-- Your footer content goes here -->
-
-    <!-- Add your JavaScript links here -->
-    </body>
+<footer>
+        <p>&copy; 2024 My Laravel App. All rights reserved.</p>
+    </footer>
+</body>
 </html>
