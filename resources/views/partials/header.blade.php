@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Laravel App</title>
+    <title>Books Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-<header class="bg-gray-800 p-6">
+<header class="bg-blue-400 p-6">
     <div class="container mx-auto flex justify-between items-center">
-        <a href="#" class="text-white font-semibold">My Laravel App</a>
-        <ul class="flex space-x-4">
-            <li><a href="#" class="text-white hover:text-gray-300">Home</a></li>
-            <li><a href="#" class="text-white hover:text-gray-300">About</a></li>
-            <li><a href="#" class="text-white hover:text-gray-300">Contact</a></li>
-        </ul>
+        <a href="#" class="text-white font-semibold">Books Manager</a>
     </div>
 </header>

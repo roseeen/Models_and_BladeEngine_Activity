@@ -5,10 +5,12 @@ namespace App\Models\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Book extends Model
+class MyBook extends Model
 {
     use HasFactory;
     
+    protected $table = 'books';
+
     protected $fillable = [
         'isbn',
         'title',
